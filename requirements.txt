@@ -1,6 +1,6 @@
 # THROWAWAY DEMO: old versions pinned on purpose so Dependabot raises alerts.
 # Never deploy this repository. It is deleted after the screenshots.
-Flask==2.2.2
+Flask==3.1.3
 Werkzeug==2.2.2
 Jinja2==3.1.6
 requests==2.34.2
