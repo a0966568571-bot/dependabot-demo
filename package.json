@@ -1,0 +1,12 @@
+{
+  "name": "dependabot-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Throwaway demo: old lodash pinned on purpose. Never deploy.",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}
