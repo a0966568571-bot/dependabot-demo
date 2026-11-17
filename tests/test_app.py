@@ -4,9 +4,9 @@ from app import app
 
 
 def test_hello_escapes_html():
-    r = app.test_client().get("/hello/<b>x</b>")
+    r = app.test_client().get("/hello/<script>")
     assert r.status_code == 200
-    assert b"&lt;b&gt;" in r.data
+    assert b"&lt;script&gt;" in r.data
 
 
 def test_requests_builds_url():
